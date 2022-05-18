@@ -41,6 +41,7 @@ def save_image():
 # # draw watermark in the upper left corner
     draw.text((x, y), text, font=font)
     im.save('watermark.jpg')
+    im.show()
 
 
 # Create an Image Object from an Image
