@@ -28,7 +28,7 @@ def open_image():
 def save_image():
     im = photo.im
     draw = ImageDraw.Draw(im)
-    text = "sample watermark"
+    text = entry.get()
     font = ImageFont.load_default()
     textwidth, textheight = draw.textsize(text, font)
 # # calculate the x,y coordinates of the text
